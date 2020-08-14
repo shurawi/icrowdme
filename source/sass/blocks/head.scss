@@ -1,0 +1,54 @@
+.head {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.head__wrap {
+  display: flex;
+  margin: 21px 140px 0 135px;
+}
+
+.head__nav {
+  width: 100%;
+}
+
+.head__list {
+  display: flex;
+  list-style-type: none;
+}
+
+.head__item {
+  &:not(.head__item--logo) {
+    margin-top: 13px;
+  }
+}
+
+.head__item--logo {
+  flex-grow: 1;
+}
+
+.head__link {
+  margin-right: 28px;
+  font-size: 13.2px;
+  font-family: "Open Sans semibold";
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #666666;
+}
+
+.head__btn {
+  margin: 4px 0 0 46px;
+  padding: 0;
+  min-width: 100px;
+  height: 37px;
+  font-size: 13.2px;
+  font-family: "Open Sans semibold";
+  text-transform: uppercase;
+  background-color: #bcda5c;
+  color: #ffffff;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

@@ -6,6 +6,8 @@ body {
   margin: 0;
   padding: 0;
   min-width: 320px;
+  max-width: 1300px;
+  font-family: "Open Sans regular";
   color: #283645;
   overflow-x: hidden;
 }
@@ -15,23 +17,23 @@ body {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("//db.onlinewebfonts.com/t/1bf71be111189e76987a4bb9b3115cb7.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1bf71be111189e76987a4bb9b3115cb7.woff") format("woff");
+  src: url("../fonts/Open Sans Light.woff2") format("woff2"), url("../fonts/Open Sans Light.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Open Sans regular";
+  font-family: "Open Sans Regular";
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("//db.onlinewebfonts.com/t/011860fc12a11332d2863a747de7bc32.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/011860fc12a11332d2863a747de7bc32.woff") format("woff");
+  src: url("../fonts/Open Sans Regular.woff2") format("woff2"), url("../fonts/Open Sans Regular.woff2") format("woff");
 }
 
 @font-face {
-  font-family: "Open Sans semibold";
+  font-family: "Open Sans Semibold";
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("//db.onlinewebfonts.com/t/33f225b8f5f7d6b34a0926f58f96c1e9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/33f225b8f5f7d6b34a0926f58f96c1e9.woff") format("woff");
+  src: url("../fonts/Open Sans Semibold.woff2") format("woff2"), url("../fonts/Open Sans Semibold.woff") format("woff");
 }
 
 h2,
