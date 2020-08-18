@@ -6,14 +6,13 @@ body {
   margin: 0;
   padding: 0;
   min-width: 320px;
-  max-width: 1300px;
-  font-family: "Open Sans regular";
+  font-family: "Open Sans Regular";
   color: #283645;
   overflow-x: hidden;
 }
 
 @font-face {
-  font-family: "Open Sans light";
+  font-family: "Open Sans Light";
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -25,7 +24,7 @@ body {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/Open Sans Regular.woff2") format("woff2"), url("../fonts/Open Sans Regular.woff2") format("woff");
+  src: url("../fonts/Open Sans Regular.woff2") format("woff2"), url("../fonts/Open Sans Regular.woff") format("woff");
 }
 
 @font-face {

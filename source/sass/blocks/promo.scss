@@ -1,0 +1,27 @@
+.promo {
+  background: url("../img/icon_promo-bg.svg") no-repeat;
+  background-size: 58px;
+  background-position: 52.5% 99px;
+  border-top: 1px solid rgba(255, 255, 255, 0);
+}
+
+.promo__wrap {
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.promo__title {
+  margin: 194px 380px 50px;
+  font-size: 31.2px;
+  line-height: 50px;
+  font-family: "Open Sans Semibold";
+  text-transform: uppercase;
+}
+
+.promo__paragraph {
+  margin: 0 180px 38px;
+  font-size: 19.2px;
+  line-height: 31.2px;
+  font-family: "Open Sans Regular";
+}
