@@ -1,0 +1,94 @@
+.advatages__wrap {
+  max-width: 1300px;
+  margin: 140px auto 0;
+}
+
+.advantages__list {
+  margin: 0 160px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  border-bottom: 1px solid #5f5f5f;
+}
+
+.advantages__btn {
+  position: relative;
+  margin: 0;
+  padding: 15px 0 33px 70px;
+  font-size: 33.2px;
+  font-family: "Open Sans Light";
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: 7px;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    background-color: #5f5f5f;
+  }
+}
+
+.advantages__btn--active {
+  border-bottom: 1px solid #add136;
+
+  &::before {
+    background-color: #add136;
+  }
+}
+
+.advantages__btn--smp {
+  width: 200px;
+  padding-left: 48px;
+}
+
+.advantages__btn--trs {
+  width: 270px;
+}
+
+.advantages__btn--clb {
+  width: 290px;
+}
+
+.advantages__span {
+  position: absolute;
+  top: 21px;
+  left: 23px;
+  font-size: 20.19px;
+  font-family: "Open Sans Regular";
+  color: #ffffff;
+}
+
+.advantages__text {
+  position: relative;
+  width: 700px;
+  margin: 57px 0 0 464px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: -216px;
+    width: 113px;
+    height: 102px;
+    background: url("../img/icon-glasses.svg") no-repeat;
+  }
+}
+
+.advantages__head {
+  font-size: 25.2px;
+  font-family: "Open Sans Regular";
+  color: #add136;
+}
+
+.advantages__paragraph {
+  margin: 25px 0 0 2px;
+  font-size: 17.2px;
+  line-height: 30.2px;
+  font-family: "Open Sans Regular";
+}
