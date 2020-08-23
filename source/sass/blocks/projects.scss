@@ -1,0 +1,137 @@
+.projects__wrap {
+  min-width: 1300px;
+  margin: 73px auto 0;
+}
+
+.projects__info {
+  position: relative;
+  margin: 0 140px;
+  padding: 0 21px;
+}
+
+.project__title {
+  font-size: 29.2px;
+  font-family: "Open Sans Semibold";
+}
+
+.projects__paragraph {
+  margin: 16px 290px 0 0;
+  font-size: 17.2px;
+  line-height: 29.2px;
+  font-family: "Open Sans Regular";
+  color: #8f8f8f;
+}
+
+.projects__link {
+  position: absolute;
+  top: 36px;
+  right: 21px;
+  width: 183px;
+  height: 52px;
+  padding: 15px 0 0 0;
+  display: block;
+  font-size: 14.83px;
+  font-family: "Open Sans Semibold";
+  text-decoration: none;
+  text-align: center;
+  color: #838383;
+  border: 1px solid #b6b6b6;
+  border-radius: 8px;
+}
+
+.projects__list {
+  margin: 60px 140px 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.projects__item {
+  position: relative;
+  width: 300px;
+  margin: 0 20px;
+  border: 1px solid #b6b6b6;
+  border-radius: 8px;
+}
+
+.projects__pic {
+  position: relative;
+  overflow: hidden;
+  width: 298px;
+  height: 228px;
+}
+
+.projects__pic--middle {
+  height: 230px;
+}
+
+.projects__img {
+  position: absolute;
+  top: 28%;
+  left: 53%;
+  transform:translate(-50%,-50%);
+  object-fit:cover;
+}
+
+.projects__img--middle {
+  top: 27%;
+  left: 45%;
+}
+
+.projects__text {
+  margin: 24px 0 0 21px;
+}
+
+.projects__em {
+  position: absolute;
+  top: 175px;
+  right: 14px;
+  width: 140px;
+  height: 35px;
+  padding: 7px 0 0 7px;
+  display: block;
+  font-size: 16.51px;
+  font-style: normal;
+  font-family: "Open Sans Semibold";
+  color: #ffffff;
+  background-color: #26a6d1;
+  border-radius: 6px;
+}
+
+.projects__span {
+  font-family: "Open Sans Regular";
+}
+
+.projects__head {
+  font-size: 17.2px;
+  font-family: "Open Sans Semibold";
+  letter-spacing: 0.3px;
+}
+
+.projects__sentence {
+  margin: 7px 6px 0 2px;
+  font-size: 13.2px;
+  line-height: 23.2px;
+  font-family: "Open Sans Regular";
+}
+
+.projects__cont {
+  position: relative;
+  margin: 47px 21px 0;
+  display: flex;
+  justify-content: space-between;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -29px;
+    width: 100%;
+    height: 14px;
+    background: linear-gradient(to right, #add136 15%, #e3e3e3 15%, #e3e3e3 100%);
+    border-radius: 10px;
+  }
+}
+
+.projects__value {
+  font-size: 13.2px;
+  font-family: "Open Sans Semibold";
+}

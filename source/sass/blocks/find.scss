@@ -1,0 +1,87 @@
+.find__wrap {
+  max-width: 1300px;
+  margin: 103px auto 0;
+  display: flex;
+}
+
+.find__item {
+  width: 50%;
+  padding-bottom: 45px;
+}
+
+.find__item--prop {
+  position: relative;
+  padding-left: 318px;
+  background-color: #e2f8ff;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 83px;
+    left: 141px;
+    width: 133px;
+    height: 112px;
+    background: url("../img/icon__prop.svg") no-repeat;
+  }
+}
+
+.find__item--buy {
+  position: relative;
+  padding-left: 248px;
+  background-color: #f5f9eb;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 95px;
+    left: 73px;
+    width: 101px;
+    height: 92px;
+    background: url("../img/icon__buy.svg") no-repeat;
+  }
+}
+
+.find__head {
+  margin-top: 38px;
+  font-size: 23.2px;
+  font-family: "Open Sans Regular";
+  letter-spacing: 1px;
+}
+
+.find__paragraph {
+  margin-top: 23px;
+  font-size: 17.2px;
+  line-height: 30.2px;
+  font-family: "Open Sans Regular";
+}
+
+.find__paragraph--prop {
+  margin-right: 37px;
+}
+
+.find__paragraph--buy {
+  margin-right: 110px;
+}
+
+.find__link {
+  width: 187px;
+  height: 51px;
+  margin-top: 24px;
+  padding: 14px 0 0 24px;
+  display: block;
+  font-size: 14.84px;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.find__link--prop {
+  margin-left: 5px;
+  background-color: #26a6d1;
+}
+
+.find__link--buy {
+  margin-left: 2px;
+  background-color: #add136;
+}
