@@ -11,6 +11,11 @@ body {
   overflow-x: hidden;
 }
 
+.wrap {
+  min-width: 1300px;
+  margin: 0 auto;
+}
+
 @font-face {
   font-family: "Open Sans Light";
   font-weight: normal;
@@ -33,6 +38,14 @@ body {
   font-style: normal;
   font-display: swap;
   src: url("../fonts/Open Sans Semibold.woff2") format("woff2"), url("../fonts/Open Sans Semibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat Regular";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Montserrat Regular.woff2") format("woff2"), url("../fonts/Montserrat Regular.woff") format("woff");
 }
 
 h2,
