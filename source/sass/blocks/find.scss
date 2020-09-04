@@ -4,75 +4,67 @@
 }
 
 .find__item {
-  width: 50%;
+  width: 650px;
   padding-bottom: 45px;
 }
 
 .find__item--prop {
   position: relative;
-  padding-left: 318px;
-  background-color: #e2f8ff;
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: 83px;
-    left: 141px;
-    width: 133px;
-    height: 112px;
-    background: url("../img/icon__prop.svg") no-repeat;
-  }
+  background: url("../img/icon__prop.svg") no-repeat, #e2f8ff;
+  background-size: 133px 112px;
+  background-position: 27.5% 83px;
 }
 
 .find__item--buy {
   position: relative;
-  padding-left: 248px;
-  background-color: #f5f9eb;
+  background: url("../img/icon__buy.svg") no-repeat, #f5f9eb;
+  background-size: 101px 92px;
+  background-position: 13.5% 95px;
+}
 
-  &::before {
-    content: "";
-    position: absolute;
-    top: 95px;
-    left: 73px;
-    width: 101px;
-    height: 92px;
-    background: url("../img/icon__buy.svg") no-repeat;
-  }
+.find__text {
+  margin: 20px 0 0 38.5%;
+}
+
+.find__text--prop {
+  padding-left: 10.5%
+}
+
+.find__text--buy {
+  padding-right: 10.5%
 }
 
 .find__head {
   margin-top: 38px;
-  font-size: 23.2px;
+  font-size: 1.45rem;
   font-family: "Open Sans Regular";
   letter-spacing: 1px;
 }
 
 .find__paragraph {
   margin-top: 23px;
-  font-size: 17.2px;
-  line-height: 30.2px;
+  margin-right: 18.7%;
+  font-size: 1.075rem;
+  line-height: 1.9rem;
   font-family: "Open Sans Regular";
 }
 
-.find__paragraph--prop {
-  margin-right: 37px;
-}
-
-.find__paragraph--buy {
-  margin-right: 110px;
-}
-
 .find__link {
-  width: 187px;
-  height: 51px;
+  width: 83.54%;
   margin-top: 24px;
-  padding: 14px 0 0 24px;
+  padding: 14px 0 16px 10px;
   display: block;
-  font-size: 14.84px;
+  font-size: 0.85rem;
   text-decoration: none;
   letter-spacing: 0.3px;
   color: #ffffff;
   border-radius: 8px;
+
+  @media (min-width: 768px) {
+    width: 55.54%;
+    padding: 14px 0 16px 24px;
+    font-size: 0.9275rem;
+  }
 }
 
 .find__link--prop {
@@ -81,6 +73,6 @@
 }
 
 .find__link--buy {
-  margin-left: 2px;
+  margin-left: 3px;
   background-color: #add136;
 }

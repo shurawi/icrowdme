@@ -6,32 +6,35 @@
 }
 
 .head__wrap {
+  margin: 1.62% 140px 0 10.4%;
   display: flex;
-  margin: 21px 140px 0 135px;
+  flex-wrap: wrap;
+}
+
+.head__logo {
+  margin-right: 11.5%;
 }
 
 .head__nav {
-  width: 100%;
+  width: 56%;
 }
 
 .head__list {
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
 }
 
 .head__item {
-  &:not(.head__item--logo) {
-    margin-top: 13px;
-  }
+  margin-top: 13px;
 }
 
-.head__item--logo {
-  flex-grow: 1;
+.head__item {
+  margin-right: 4.8%;
 }
 
 .head__link {
-  margin-right: 28px;
-  font-size: 13.2px;
+  font-size: 0.825rem;
   font-family: "Open Sans semibold";
   text-transform: uppercase;
   text-decoration: none;
@@ -39,11 +42,11 @@
 }
 
 .head__btn {
-  margin: 4px 0 0 46px;
+  margin: 4px 0 0 2.1%;
   padding: 0;
   min-width: 100px;
   height: 37px;
-  font-size: 13.2px;
+  font-size: 0.825rem;
   font-family: "Open Sans semibold";
   text-transform: uppercase;
   background-color: #bcda5c;

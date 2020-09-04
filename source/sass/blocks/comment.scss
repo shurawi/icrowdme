@@ -5,35 +5,36 @@
 }
 
 .comment__wrap {
-  margin-top: 66px;
+  margin-top: 46px;
 }
 
 .comment__title {
-  margin: 0 180px;
+  margin: 0 13.85%;
   text-align: center;
-  font-size: 39.2px;
+  font-size: 2.45rem;
   font-family: "Open Sans Semibold";
   color: #add136;
 }
 
 .comment__paragraph {
-  margin: 34px 180px 0;
+  margin: 34px 13.85% 0;
   text-align: center;
-  font-size: 19.2px;
-  line-height: 32.2px;
+  font-size: 1.2rem;
+  line-height: 2rem;
   font-family: "Open Sans Regular";
   color: #949494;
 }
 
 .comment__list {
-  margin: 94px 140px 0;
+  margin: 94px 6.77% 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
   list-style-type: none;
 }
 
 .comment__item {
-  margin: 0 38px 0 32px;
+  margin: 0 7% 20px 6.4%;
 }
 
 .comment__text {
@@ -46,15 +47,15 @@
 
 .comment__head {
   padding: 18px 24px 0 0;
-  font-size: 21.2px;
+  font-size: 1.325rem;
   font-family: "Open Sans Semibold";
   color: #add136;
 }
 
 .comment__sentence {
   padding: 10px 4px 19px 0;
-  font-size: 13.2px;
-  line-height: 23.2px;
+  font-size: 0.825rem;
+  line-height: 1.45rem;
   font-family: "Open Sans Regular";
   color: #949494;
 }
@@ -67,7 +68,7 @@
 
 .comment__author {
   margin-left: 17px;
-  font-size: 15.2px;
+  font-size: 0.95rem;
   font-family: "Montserrat Regular";
   font-style: normal;
   color: #494949;
