@@ -27,15 +27,12 @@
 
 .head__item {
   margin-top: 13px;
-}
-
-.head__item {
   margin-right: 4.8%;
 }
 
 .head__link {
   font-size: 0.825rem;
-  font-family: "Open Sans semibold";
+  font-family: "Open Sans semibold", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   color: #666666;
@@ -47,7 +44,7 @@
   min-width: 100px;
   height: 37px;
   font-size: 0.825rem;
-  font-family: "Open Sans semibold";
+  font-family: "Open Sans semibold", sans-serif;
   text-transform: uppercase;
   background-color: #bcda5c;
   color: #ffffff;
