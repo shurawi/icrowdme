@@ -21,7 +21,7 @@ body {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/Open Sans Light.woff2") format("woff2"), url("../fonts/Open Sans Light.woff") format("woff");
+  src: url("../fonts/OpenSansLight.woff2") format("woff2"), url("../fonts/Open Sans Light.woff") format("woff");
 }
 
 @font-face {
@@ -29,7 +29,7 @@ body {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/Open Sans Regular.woff2") format("woff2"), url("../fonts/Open Sans Regular.woff") format("woff");
+  src: url("../fonts/OpenSansRegular.woff2") format("woff2"), url("../fonts/Open Sans Regular.woff") format("woff");
 }
 
 @font-face {
@@ -37,7 +37,7 @@ body {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/Open Sans Semibold.woff2") format("woff2"), url("../fonts/Open Sans Semibold.woff") format("woff");
+  src: url("../fonts/OpenSansSemibold.woff2") format("woff2"), url("../fonts/Open Sans Semibold.woff") format("woff");
 }
 
 @font-face {
@@ -45,7 +45,7 @@ body {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/Montserrat Regular.woff2") format("woff2"), url("../fonts/Montserrat Regular.woff") format("woff");
+  src: url("../fonts/MontserratRegular.woff2") format("woff2"), url("../fonts/Montserrat Regular.woff") format("woff");
 }
 
 h2,
@@ -58,4 +58,17 @@ ul,
 img {
   margin: 0;
   padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
