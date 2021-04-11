@@ -53,3 +53,28 @@
   outline: none;
   cursor: pointer;
 }
+
+.head__ref {
+  position: fixed;
+  top: 50%;
+  right: 5%;
+  width: 40px;
+  height: 40px;
+  display: none;
+  background-color: #bcda5c;
+  background-image: url("../img/icon_arw_left.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(90deg);
+  border-radius: 50%;
+  z-index: 2;
+
+  &:hover {
+    background-color: #666666;
+    background-image: url("../img/icon_arw_left-hover.svg");
+  }
+}
+
+.head__ref--show {
+  display: inline-block;
+}

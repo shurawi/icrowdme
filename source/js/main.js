@@ -1,3 +1,4 @@
+//toggles state in advantages block's description
 var btnSmp = document.querySelector('.advantages__btn--smp');
 var btnTrs = document.querySelector('.advantages__btn--trs');
 var btnClb = document.querySelector('.advantages__btn--clb');

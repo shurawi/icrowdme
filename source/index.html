@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="format-detection" content="telephone=no">
   <title>icrowdme</title>
-  <link rel="stylesheet" href="css/style.min.css">
+  <link href="css/style.min.css" rel="stylesheet">
+  <link href="img/icon_favicon32x32.png" rel="shortcut icon">
   <link href="fonts/OpenSansLight.woff" as="font" rel="preload"/>
   <link href="fonts/OpenSansLight.woff2" as="font" rel="preload"/>
   <link href="fonts/OpenSansRegular.woff" as="font" rel="preload"/>
@@ -15,7 +16,7 @@
   <link href="fonts/OpenSansSemibold.woff2" as="font" rel="preload"/>
 </head>
 <body>
-  <header class="head">
+  <header class="head" id="head">
     <div class="head__wrap">
       <a class="head__logo" href="#">
         <img src="img/head_logo.png" width="211" height="36" alt="icrowdme logo">
@@ -41,6 +42,9 @@
       </nav>
       <button class="head__btn" type="button" name="button">login</button>
     </div>
+    <a class="head__ref" href="#head">
+      <span class="visually-hidden">Наверх</span>
+    </a>
   </header>
 
   <main>
@@ -196,8 +200,7 @@
     <div></div>
   </footer>
 
-  <script src="js/main.js">
-
-  </script>
+  <script src="js/main.js"></script>
+  <script src="js/nav.js"></script>
 </body>
 </html>
