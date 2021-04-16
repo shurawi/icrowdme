@@ -1,33 +1,68 @@
+@import "variables.scss";
+
 .head {
-  width: 100%;
-  max-width: 1300px;
   margin: 0 auto;
   padding-bottom: 23px;
 }
 
 .head__wrap {
-  margin: 1.62% 140px 0 10.4%;
+  margin: 10px 5% 0 5%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    margin: 10px 2% 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 20px;
+  }
 }
 
 .head__logo {
   margin-right: 11.5%;
 }
 
-.head__nav {
-  width: 56%;
+.head__nav--mobile {
+  display: flex;
+  justify-content: space-between;
+
+  @media (min-width: $tablet-width) {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+  }
+}
+
+.head__nav--catalog {
+  @media (min-width: $tablet-width) {
+    grid-column: 1 / 10;
+    grid-row: 2 / 3;
+  }
+}
+
+.head__nav--close {
+  display: none;
 }
 
 .head__list {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   list-style-type: none;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+  }
 }
 
 .head__item {
   margin-top: 13px;
   margin-right: 4.8%;
+
+  &:last-of-type {
+    @media (min-width: $tablet-width) {
+      margin-right: 0;
+    }
+  }
 }
 
 .head__link {
@@ -39,9 +74,9 @@
 }
 
 .head__btn {
-  margin: 4px 0 0 2.1%;
+  margin: 15px auto 0;
   padding: 0;
-  min-width: 100px;
+  width: 100%;
   height: 37px;
   font-size: 0.825rem;
   font-family: "Open Sans semibold", sans-serif;
@@ -52,6 +87,43 @@
   border: none;
   outline: none;
   cursor: pointer;
+}
+
+.head__btn--close {
+  margin: 0;
+  width: 24px;
+  height: 24px;
+  align-self: center;
+  font-size: 0;
+  line-height: 0;
+  background-color: #ffffff;
+  background-image: url("../img/icon-close.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.head__btn--open {
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/icon-mobile-menu.svg");
+}
+
+.head__btn--mobile {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.head__btn--login {
+  @media (min-width: $tablet-width) {
+    width: 90px;
+    margin: 0;
+    grid-column: 11 / 12;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 100px;
+  }
 }
 
 .head__ref {

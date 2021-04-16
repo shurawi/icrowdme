@@ -18,10 +18,13 @@
 <body>
   <header class="head" id="head">
     <div class="head__wrap">
-      <a class="head__logo" href="#">
-        <img src="img/head_logo.png" width="211" height="36" alt="icrowdme logo">
-      </a>
-      <nav class="head__nav">
+      <nav class="head__nav head__nav--mobile">
+        <a class="head__logo" href="#">
+          <img src="img/head_logo.png" width="211" height="36" alt="icrowdme logo">
+        </a>
+        <button class="head__btn head__btn--mobile head__btn--close" type="button" name="button">нажми меня</button>
+      </nav>
+      <nav class="head__nav head__nav--catalog">
         <ul class="head__list">
           <li class="head__item">
             <a class="head__link" href="#">HOME</a>
@@ -40,7 +43,7 @@
           </li>
         </ul>
       </nav>
-      <button class="head__btn" type="button" name="button">login</button>
+      <button class="head__btn head__btn--login" type="button" name="button">login</button>
     </div>
     <a class="head__ref" href="#head">
       <span class="visually-hidden">Наверх</span>
@@ -55,7 +58,7 @@
       </div>
     </section>
 
-    <section class="promo">
+    <section class="promo close">
       <div class="promo__wrap wrap">
         <h2 class="promo__title">Our work is the presentation  of our capabilities.</h2>
         <p class="promo__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
@@ -63,7 +66,7 @@
       </div>
     </section>
 
-    <section class="advantages">
+    <section class="advantages close">
       <h2 class="visually-hidden">Our advantages</h2>
       <div class="advatages__wrap wrap">
         <ul class="advantages__list">
@@ -84,7 +87,7 @@
       </div>
     </section>
 
-    <section class="find">
+    <section class="find close">
       <div class="find__wrap wrap">
         <div class="find__item find__item--prop">
           <div class="find__text find__text--prop">
@@ -103,7 +106,7 @@
       </div>
     </section>
 
-    <section class="projects">
+    <section class="projects close">
       <div class="projects__wrap wrap">
         <div class="projects__info">
           <h2 class="project__title">Featured Projects</h2>
@@ -154,7 +157,7 @@
       </div>
     </section>
 
-    <section class="comment">
+    <section class="comment close">
       <div class="comment__wrap wrap">
         <h2 class="comment__title">Be Part of a Growing International Community</h2>
         <p class="comment__paragraph">One of the challenges in networking is everybody thinks it's making cold calls to strangers. Actually, it's the people who already have strong trust relationships with you</p>
@@ -185,14 +188,14 @@
   </main>
 
   <footer>
-    <section class="partners">
+    <section class="partners close">
       <h2 class="visually-hidden">Our partners</h2>
       <div class="partners__wrap">
         <img class="partners__img" src="img/partners_bg.png" width="1028" height="45" alt="">
       </div>
     </section>
 
-    <section class="copyright">
+    <section class="copyright close">
       <h2 class="visually-hidden">Copyright information</h2>
       <p class="copyright__text">Copyright © 2001 - 2014  Cssauthor.com</p>
       <p class="copyright__text">Used fonts from <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a> is licensed by CC BY 3.0</p>

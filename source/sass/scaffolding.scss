@@ -1,3 +1,5 @@
+@import "variables.scss";
+
 * {
   box-sizing: border-box;
 }
@@ -12,8 +14,18 @@ body {
 }
 
 .wrap {
-  max-width: 1300px;
+  width: 320px;
   margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 767px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1300px;
+    margin: 0 auto;
+  }
 }
 
 @font-face {
@@ -46,6 +58,10 @@ body {
   font-style: normal;
   font-display: swap;
   src: url("../fonts/MontserratRegular.woff2") format("woff2"), url("../fonts/Montserrat Regular.woff") format("woff");
+}
+
+.close {
+  display: none;
 }
 
 h2,
