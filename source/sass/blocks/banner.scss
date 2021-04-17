@@ -1,31 +1,83 @@
+.banner {
+  background: #e2f8ff;
+}
+
 .banner__wrap {
-  height: 570px;
-  padding-top: 150px;
+  width: 100%;
+  height: 240px;
+  padding-top: 5em;
   text-align: center;
-  background: url("../img/banner_bg.png") no-repeat, rgba(200, 207, 202, 1);
+  background: url("../img/banner-bg-mobile.png") no-repeat, rgba(200, 207, 202, 1);;
   background-blend-mode: multiply;
+
+  @media (min-width: $mobile-width-only) {
+    background: url("../img/banner-bg-tablet.png") no-repeat, rgba(200, 207, 202, 1);;
+    background-blend-mode: multiply;
+  }
+
+  @media (min-width: $tablet-width) {
+    height: 337px;
+    padding-top: 7em;
+    background: url("../img/banner-bg-desktop.png") no-repeat, rgba(200, 207, 202, 1);
+    background-blend-mode: multiply;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 9em;
+    width: 1300px;
+    height: 570px;
+  }
 }
 
 .banner__title {
-  margin: 0 15.4%;
-  font-size: 3.075rem;
-  line-height: 4.8rem;
+  margin: 0 11%;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   color: #ffffff;
+
+  @media (min-width: $tablet-width) {
+    margin: 0 15.4%;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 3.075rem;
+    line-height: 4.8rem;
+  }
 }
 
 .banner__span {
-  font-size: 2.2rem;
+  font-size: 1rem;
   font-family: "Open Sans Light", sans-serif;
+
+  @media (min-width: $tablet-width) {
+    font-size: 1.25rem;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 2.2rem;
+  }
 }
 
 .banner__link {
-  width: 19.61%;
+  width: 160px;
+  height: 37px;
   margin: 20px auto 0;
+  padding: 7px 0;
   display: block;
-  font-size: 1.2rem;
-  line-height: 4.8rem;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
   text-decoration: none;
   color: #ffffff;
   background-color: #99c50a;
   border-radius: 15px;
+
+  @media (min-width: $desktop-width) {
+    width: 19.61%;
+    height: 73px;
+    padding: 0;
+    font-size: 1.2rem;
+    line-height: 4.8rem;
+  }
 }
