@@ -1,20 +1,32 @@
 .promo {
   background: url("../img/icon_promo-bg.svg") no-repeat;
-  background-size: 58px;
-  background-position: 52.5% 99px;
+  background-size: 40px;
+  background-position: center 5%;
   border-top: 1px solid rgba(255, 255, 255, 0);
+
+  @media (min-width: $tablet-width) {
+    background-size: 58px;
+    background-position: center 15%;
+  }
 }
 
 .promo__wrap {
+  width: 100%;
   text-align: center;
 }
 
 .promo__title {
-  margin: 194px 29.23% 50px;
-  font-size: 1.95rem;
-  line-height: 3.125rem;
+  margin: 6em 2em 35px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   font-family: "Open Sans Semibold", sans-serif;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    margin: 7em 2em 50px;
+    font-size: 1.875rem;
+    line-height: 2.125rem;
+  }
 }
 
 .promo__paragraph {
