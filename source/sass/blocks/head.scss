@@ -1,17 +1,16 @@
 @import "variables.scss";
 
 .head {
-  margin: 0 auto;
   padding-bottom: 23px;
 }
 
 .head__wrap {
-  margin: 10px 5% 0 5%;
+  margin: 40px 2% 0;
   display: flex;
   flex-direction: column;
 
   @media (min-width: $tablet-width) {
-    margin: 10px 2% 0;
+    margin: 40px 5% 0;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 20px;
@@ -118,7 +117,7 @@
   @media (min-width: $tablet-width) {
     width: 90px;
     margin: 0;
-    grid-column: 11 / 12;
+    grid-column: 12 / -1;
   }
 
   @media (min-width: $desktop-width) {
