@@ -1,5 +1,5 @@
 .find__wrap {
-  padding-top: 40px;
+  margin-top: 23px;
   display: grid;
   grid-template-rows: repeat(2, auto);
 
@@ -7,8 +7,12 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  @media (min-width: $tablet-width) {
+    margin-top: 40px;
+  }
+
   @media (min-width: $desktop-width) {
-    margin-top: 103px;
+    margin-top: 80px;
   }
 }
 

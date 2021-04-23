@@ -2,6 +2,10 @@
 
 .head {
   padding-bottom: 23px;
+
+  @media (min-width: $tablet-width) {
+    padding-bottom: 40px;
+  }
 }
 
 .head__wrap {
