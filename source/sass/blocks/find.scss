@@ -1,37 +1,49 @@
 .find__wrap {
-  margin-top: 103px;
-  display: flex;
+  padding-top: 40px;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+
+  @media (min-width: $mobile-width) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 103px;
+  }
 }
 
 .find__item {
-  width: 650px;
-  padding-bottom: 45px;
+  width: 100%;
 }
 
 .find__item--prop {
   position: relative;
-  background: url("../img/icon__prop.svg") no-repeat, #e2f8ff;
-  background-size: 133px 112px;
-  background-position: 27.5% 83px;
+  background: #e2f8ff;
+
+  @media (min-width: $desktop-width) {
+    background: url("../img/icon__prop.svg") no-repeat, #e2f8ff;
+    background-size: 133px 112px;
+    background-position: 11.5% 83px;
+  }
 }
 
 .find__item--buy {
   position: relative;
-  background: url("../img/icon__buy.svg") no-repeat, #f5f9eb;
-  background-size: 101px 92px;
-  background-position: 13.5% 95px;
+  background: #f5f9eb;
+
+  @media (min-width: $desktop-width) {
+    background: url("../img/icon__buy.svg") no-repeat, #f5f9eb;
+    background-size: 101px 92px;
+    background-position: 13.5% 95px;
+  }
 }
 
 .find__text {
-  margin: 20px 0 0 38.5%;
-}
+  margin: 10.5% 2%;
 
-.find__text--prop {
-  padding-left: 10.5%;
-}
-
-.find__text--buy {
-  padding-right: 10.5%;
+  @media (min-width: $desktop-width) {
+    padding-left: 44.5%;
+  }
 }
 
 .find__head {
@@ -43,36 +55,38 @@
 
 .find__paragraph {
   margin-top: 23px;
-  margin-right: 18.7%;
   font-size: 1.075rem;
   line-height: 1.9rem;
   font-family: "Open Sans Regular", sans-serif;
+  text-align: justify;
+
+  @media (min-width: $desktop-width) {
+    margin-right: 18.7%;
+  }
 }
 
 .find__link {
   width: 83.54%;
-  margin-top: 24px;
-  padding: 14px 0 16px 10px;
+  margin-top: 20px;
+  padding: 14px 0 14px;
   display: block;
   font-size: 0.85rem;
   text-decoration: none;
-  letter-spacing: 0.3px;
+  text-align: center;
   color: #ffffff;
   border-radius: 8px;
 
   @media (min-width: 768px) {
     width: 55.54%;
-    padding: 14px 0 16px 24px;
+    padding: 14px 0 14px;
     font-size: 0.9275rem;
   }
 }
 
 .find__link--prop {
-  margin-left: 5px;
   background-color: #26a6d1;
 }
 
 .find__link--buy {
-  margin-left: 3px;
   background-color: #add136;
 }
