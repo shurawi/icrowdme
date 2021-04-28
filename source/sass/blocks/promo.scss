@@ -12,26 +12,37 @@
 
 .promo__wrap {
   width: 100%;
-  text-align: center;
 }
 
 .promo__title {
-  margin: 6em 2em 35px;
+  margin: 95px 2% 23px;
   font-size: 1.25rem;
   line-height: 1.5rem;
   font-family: "Open Sans Semibold", sans-serif;
   text-transform: uppercase;
+  text-align: center;
+
+  @media (min-width: $mobile-width) {
+    margin: 95px 11% 23px;
+  }
 
   @media (min-width: $tablet-width) {
-    margin: 7em 2em 50px;
+    margin: 160px 5% 50px;
     font-size: 1.875rem;
     line-height: 2.125rem;
   }
 }
 
 .promo__paragraph {
-  margin: 0 13.85% 23px;
-  font-size: 1.2rem;
-  line-height: 1.95rem;
+  margin: 0 2% 23px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   font-family: "Open Sans Regular", sans-serif;
+  text-align: justify;
+
+  @media (min-width: $tablet-width) {
+    margin: 0 5% 23px;
+    font-size: 1.2rem;
+    line-height: 1.95rem;
+  }
 }

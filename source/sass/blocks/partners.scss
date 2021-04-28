@@ -1,6 +1,21 @@
 .partners__wrap {
-  min-width: 1300px;
-  margin-top: 45px;
+  margin: 23px 2% 0;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+
+  @media (min-width: $tablet-width) {
+    margin: 40px 5% 0;
+  }
+}
+
+.partners__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.partners__item {
+  margin-right: 10px;
 }
