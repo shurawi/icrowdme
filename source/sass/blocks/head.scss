@@ -93,9 +93,9 @@
 }
 
 .head__btn--close {
-  margin: 0;
   width: 24px;
   height: 24px;
+  margin: 0;
   align-self: center;
   font-size: 0;
   line-height: 0;
@@ -108,7 +108,14 @@
 .head__btn--open {
   width: 30px;
   height: 30px;
+  margin: 0;
+  align-self: center;
+  font-size: 0;
+  line-height: 0;
+  background-color: #ffffff;
   background-image: url("../img/icon-mobile-menu.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .head__btn--mobile {
