@@ -18,11 +18,10 @@
 
   @media (min-width: $mobile-width) {
     display: grid;
-    grid-template-columns: 1fr;
     grid-template-columns: repeat(3, auto);
     grid-gap: 25px;
-
   }
+
   @media (min-width: $tablet-width) {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto;
@@ -95,11 +94,14 @@
   }
 
   @media (min-width: $tablet-width) {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1.95rem;
 
     &::before {
-      top: 16px;
+      top: 15px;
+      left: 3%;
+      width: 35px;
+      height: 35px;
     }
   }
 
@@ -109,7 +111,7 @@
 
     &::before {
       top: 12px;
-      left: -45px;
+      left: -52px;
       width: 43px;
       height: 43px;
     }
@@ -133,7 +135,7 @@
   color: #ffffff;
 
   @media (min-width: $desktop-width) {
-    left: -28px;
+    left: -35px;
   }
 }
 
@@ -163,11 +165,21 @@
   line-height: 1.5rem;
   font-family: "Open Sans Regular", sans-serif;
   color: #add136;
+
+  @media (min-width: $tablet-width) {
+    font-size: 1.875rem;
+    line-height: 2.125rem;
+  }
 }
 
 .advantages__paragraph {
   margin: 23px 0 0 2px;
-  font-size: 1.075rem;
-  line-height: 1.89rem;
+  font-size: 1rem;
+  line-height: 1.25rem;
   font-family: "Open Sans Regular", sans-serif;
+
+  @media (min-width: $tablet-width) {
+    font-size: 1.2rem;
+    line-height: 1.95rem;
+  }
 }

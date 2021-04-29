@@ -47,7 +47,7 @@
 }
 
 .projects__link {
-  width: 50%;
+  width: 83.5%;
   margin-top: 23px;
   padding: 10px 0;
   display: block;
@@ -58,6 +58,10 @@
   color: #838383;
   border: 1px solid #b6b6b6;
   border-radius: 8px;
+
+  @media (min-width: $mobile-width) {
+    width: 40%;
+  }
 
   @media (min-width: $tablet-width-only) {
     width: 100%;
@@ -72,10 +76,6 @@
   justify-content: center;
   flex-wrap: wrap;
   list-style-type: none;
-
-  @media (min-width: $desktop-width) {
-    justify-content: space-between;
-  }
 }
 
 .projects__item {
@@ -84,6 +84,10 @@
   margin: 0 20px 20px;
   border: 1px solid #b6b6b6;
   border-radius: 8px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0 10px 20px;
+  }
 }
 
 .projects__item--first {

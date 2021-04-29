@@ -118,6 +118,10 @@
 }
 
 .head__btn--login {
+  @media (min-width: $mobile-width) {
+    width: 160px;
+  }
+
   @media (min-width: $tablet-width) {
     width: 90px;
     margin: 0;

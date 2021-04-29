@@ -7,11 +7,11 @@
   height: 240px;
   padding-top: 5em;
   text-align: center;
-  background: url("../img/banner-bg-mobile.png") no-repeat, rgba(200, 207, 202, 1);;
+  background: url("../img/banner-bg-mobile.png") no-repeat, rgba(200, 207, 202, 1);
   background-blend-mode: multiply;
 
   @media (min-width: $mobile-width-only) {
-    background: url("../img/banner-bg-tablet.png") no-repeat, rgba(200, 207, 202, 1);;
+    background: url("../img/banner-bg-tablet.png") no-repeat, rgba(200, 207, 202, 1);
     background-blend-mode: multiply;
   }
 
