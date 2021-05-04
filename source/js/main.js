@@ -4,7 +4,7 @@ let btnTrs = document.querySelector('.advantages__link--trs');
 let btnClb = document.querySelector('.advantages__link--clb');
 let advHead = document.querySelector('.advantages__head');
 let headBtnMobile = document.querySelector('.head__btn--mobile');
-let headNavCatalog = document.querySelector('.head__nav--catalog');
+let headNavCatalog = document.querySelector('.head__nav--menu');
 
 btnSmp.addEventListener ("click", function (evt) {
   evt.preventDefault();
@@ -35,5 +35,6 @@ headBtnMobile.addEventListener ('click', function (evt) {
   evt.preventDefault();
   headBtnMobile.classList.toggle('head__btn--close');
   headBtnMobile.classList.toggle('head__btn--open');
+  headNavCatalog.classList.toggle('head__nav--catalog');
   headNavCatalog.classList.toggle('head__nav--close');
 })
