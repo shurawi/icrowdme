@@ -35,10 +35,14 @@
   line-height: 1.5rem;
   color: #ffffff;
 
+  @media (min-width: $mobile-width) {
+    margin: 0 7.4%;
+  }
+
   @media (min-width: $tablet-width) {
     margin: 0 15.4%;
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+    font-size: 1.875rem;
+    line-height: 2.125rem;
   }
 
   @media (min-width: $desktop-width) {

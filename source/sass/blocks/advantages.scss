@@ -1,8 +1,8 @@
 .advatages__wrap {
-  margin: 23px 2% 0;
+  margin: 23px 1rem 0;
 
   @media (min-width: $tablet-width) {
-    margin: 40px 5% 0;
+    margin: 40px 1.2rem 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -114,8 +114,8 @@
     &::before {
       content: "";
       position: absolute;
-      top: 30px;
-      left: -41.6%;
+      top: 30%;
+      left: -40%;
       width: 16.14%;
       height: 68%;
       background: url("../img/icon-glasses.svg") no-repeat;
@@ -127,16 +127,18 @@
   font-size: 1.25rem;
   line-height: 1.5rem;
   font-family: "Open Sans Regular", sans-serif;
+  text-align: center;
   color: #add136;
 
   @media (min-width: $tablet-width) {
+    text-align: left;
     font-size: 1.875rem;
     line-height: 2.125rem;
   }
 }
 
 .advantages__paragraph {
-  margin: 23px 0 0 2px;
+  margin: 23px 0 0;
   font-size: 1rem;
   line-height: 1.25rem;
   font-family: "Open Sans Regular", sans-serif;

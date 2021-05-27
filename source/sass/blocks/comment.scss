@@ -5,7 +5,7 @@
 }
 
 .comment__wrap {
-  margin-top: 23px;
+  margin: 23px 1rem;
 
   @media (min-width: $tablet-width) {
     margin-top: 40px;
@@ -59,7 +59,7 @@
 }
 
 .comment__item {
-  margin: 0 7% 20px 6.4%;
+  margin: 0 7% 33px 6.4%;
 
   @media (min-width: $desktop-width) {
     width: 36%;

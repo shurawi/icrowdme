@@ -34,14 +34,14 @@
 }
 
 .promo__paragraph {
-  margin: 0 2% 23px;
+  margin: 0 1rem 23px;
   font-size: 1rem;
   line-height: 1.25rem;
   font-family: "Open Sans Regular", sans-serif;
   text-align: justify;
 
   @media (min-width: $tablet-width) {
-    margin: 0 5% 23px;
+    margin: 0 1.2rem 23px;
     font-size: 1.2rem;
     line-height: 1.95rem;
   }

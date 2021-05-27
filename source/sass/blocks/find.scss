@@ -43,11 +43,7 @@
 }
 
 .find__text {
-  margin: 10.5% 2%;
-
-  @media (min-width: $tablet-width) {
-    margin: 10.5% 5%;
-  }
+  margin: 10.5% 1rem;
 
   @media (min-width: $desktop-width) {
     padding-left: 44.5%;
@@ -86,7 +82,7 @@
 
 .find__link {
   width: 83.54%;
-  margin-top: 20px;
+  margin: 20px auto;
   padding: 14px 0 14px;
   display: block;
   font-size: 0.85rem;
@@ -95,7 +91,11 @@
   color: #ffffff;
   border-radius: 8px;
 
-  @media (min-width: 768px) {
+  @media (min-width: $mobile-width) {
+    margin: 20px 0;
+  }
+
+  @media (min-width: $tablet-width) {
     width: 55.54%;
     padding: 14px 0 14px;
     font-size: 0.9275rem;

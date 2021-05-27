@@ -35,15 +35,19 @@
   }
 }
 
-.head__nav--catalog {
+.head__nav--menu {
   @media (min-width: $tablet-width) {
-    grid-column: 1 / 10;
+    grid-column: 1 / 11;
     grid-row: 2 / 3;
   }
 }
 
 .head__nav--close {
   display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+  }
 }
 
 .head__list {
