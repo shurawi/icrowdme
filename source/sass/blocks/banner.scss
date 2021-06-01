@@ -7,25 +7,26 @@
   height: 240px;
   padding-top: 5em;
   text-align: center;
-  background: url("../img/banner-bg-mobile.png") no-repeat, rgba(200, 207, 202, 1);
+  background: url("../img/banner-bg-mobile.jpg") no-repeat, rgba(200, 207, 202, 1);
   background-blend-mode: multiply;
 
   @media (min-width: $mobile-width-only) {
-    background: url("../img/banner-bg-tablet.png") no-repeat, rgba(200, 207, 202, 1);
+    background: url("../img/banner-bg-tablet.jpg") no-repeat, rgba(200, 207, 202, 1);
     background-blend-mode: multiply;
   }
 
   @media (min-width: $tablet-width) {
     height: 337px;
     padding-top: 7em;
-    background: url("../img/banner-bg-desktop@1x.png") no-repeat, rgba(200, 207, 202, 1);
+    background: url("../img/banner-bg-desktop@1x.jpg") no-repeat, rgba(200, 207, 202, 1);
+    background-size: cover;
     background-blend-mode: multiply;
   }
 
   @media (min-width: $desktop-width) {
     padding-top: 9em;
     height: 570px;
-    background: url("../img/banner-bg-desktop@2x.png") no-repeat, rgba(200, 207, 202, 1);
+    background: url("../img/banner-bg-desktop@2x.jpg") no-repeat, rgba(200, 207, 202, 1);
     background-position: center;
     background-size: cover;
     background-blend-mode: multiply;
