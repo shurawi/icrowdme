@@ -54,7 +54,7 @@
 .projects__link {
   width: 83.5%;
   margin: 23px auto;
-  padding: 10px 0;
+  padding: 14px 0;
   display: block;
   font-size: 0.927rem;
   font-family: "Open Sans Semibold", sans-serif;
@@ -65,13 +65,21 @@
   border-radius: 8px;
 
   @media (min-width: $mobile-width) {
-    width: 40%;
+    width: 38.54%;
+  }
+
+  @media (min-width: $tablet-width) {
+    width: 26.54%;
   }
 
   @media (min-width: $tablet-width-only) {
     width: 100%;
     grid-row: 2 / 3;
     grid-column: 10 / -1;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 63%;
   }
 }
 
