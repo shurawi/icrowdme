@@ -33,6 +33,22 @@
   }
 }
 
+.banner__wrap {
+  background: url("../img/banner-bg-mobile.webp") no-repeat, rgba(200, 207, 202, 1);
+
+  @media (min-width: $mobile-width-only) {
+    background: url("../img/banner-bg-tablet.webp") no-repeat, rgba(200, 207, 202, 1);
+  }
+
+  @media (min-width: $tablet-width) {
+    background: url("../img/banner-bg-desktop@1x.webp") no-repeat, rgba(200, 207, 202, 1);
+  }
+
+  @media (min-width: $desktop-width) {
+    background: url("../img/banner-bg-desktop@2x.webp") no-repeat, rgba(200, 207, 202, 1);
+  }
+}
+
 .banner__title {
   margin: 0 11%;
   font-size: 1.25rem;
